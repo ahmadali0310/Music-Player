@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <h1>Music Player</h1>
+    <div class="container">
+      <div class="music-info">
+        <h4 class="title">summers</h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+      <audio src="./music/summer.mp3"></audio>
+      <div class="music-cover play">
+        <img
+          class="cover"
+          src="./images/summer.jpg"
+          alt="music cover"
+          srcset=""
+        />
+      </div>
+      <div class="navigation">
+        <button class="btn" id="btn-prev">
+          <i class="fas fa-backward" aria-hidden="true"></i>
+        </button>
+        <button class="btn" id="btn-play">
+          <i class="fas fa-play" aria-hidden="true"></i>
+        </button>
+        <button class="btn" id="btn-forword">
+          <i class="fas fa-forward" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/fontawesome.min.js"
+      integrity="sha512-pafh0hrrT9ZPZl/jx0cwyp7N2+ozgQf+YK94jSupHHLD2lcEYTLxEju4mW/2sbn4qFEfxJGZyIX/yJiQvgglpw=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
